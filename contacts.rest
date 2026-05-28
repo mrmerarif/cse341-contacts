@@ -1,0 +1,32 @@
+
+GET http://localhost:3000/contacts
+
+
+GET http://localhost:3000/contacts/PUT_REAL_ID_HERE
+
+
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Ana",
+  "lastName": "Lopez",
+  "email": "ana@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "1999-01-01"
+}
+
+
+PUT http://localhost:3000/contacts/PUT_REAL_ID_HERE
+Content-Type: application/json
+
+{
+  "firstName": "Ana Updated",
+  "lastName": "Lopez",
+  "email": "updated@example.com",
+  "favoriteColor": "Pink",
+  "birthday": "1999-01-01"
+}
+
+
+DELETE http://localhost:3000/contacts/PUT_REAL_ID_HERE
