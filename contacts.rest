@@ -1,9 +1,10 @@
-
 GET http://localhost:3000/contacts
 
+###
 
-GET http://localhost:3000/contacts/PUT_REAL_ID_HERE
+GET http://localhost:3000/contacts/6a178c1975a09696f6a78600
 
+###
 
 POST http://localhost:3000/contacts
 Content-Type: application/json
@@ -16,8 +17,9 @@ Content-Type: application/json
   "birthday": "1999-01-01"
 }
 
+###
 
-PUT http://localhost:3000/contacts/PUT_REAL_ID_HERE
+PUT http://localhost:3000/contacts/6a178c1975a09696f6a78600
 Content-Type: application/json
 
 {
@@ -28,5 +30,6 @@ Content-Type: application/json
   "birthday": "1999-01-01"
 }
 
+###
 
-DELETE http://localhost:3000/contacts/PUT_REAL_ID_HERE
+DELETE http://localhost:3000/contacts/6a178c1975a09696f6a78600
